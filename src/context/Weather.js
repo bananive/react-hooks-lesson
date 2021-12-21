@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { MyContext } from '../Context';
+import { MyContext } from '../hookExamples/Context';
 
 const Weather = () => {
     const contextData = useContext(MyContext);

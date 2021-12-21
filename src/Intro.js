@@ -15,7 +15,7 @@ const Intro = () => {
                     <li><Link to="/ref">useRef</Link></li>
                     <li><Link to="/reducer">useReducer</Link></li>
                     <li><Link to="/memo">useMemo</Link></li>
-                    <li>useCallback</li>
+                    <li><Link to="/callback">useCallback</Link></li>
                     <li><Link to="/custom">custom hook useApi</Link></li>
                 </ul>
             </header>

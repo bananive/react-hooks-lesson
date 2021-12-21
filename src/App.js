@@ -1,17 +1,17 @@
-import './App.css';
 import { Routes, Route} from 'react-router-dom';
-import State from './State';
-import Effect from './Effect';
+import Callback from './hookExamples/Callback';
+import Context from './hookExamples/Context';
+import Effect from './hookExamples/Effect';
+import Reducer from './hookExamples/Reducer';
+import Ref from './hookExamples/Ref';
+import Memo from './hookExamples/Memo';
+import State from './hookExamples/State';
+import Custom from './hookExamples/Custom';
 import Intro from './Intro';
-import Context from './Context';
-import Ref from './Ref';
-import Reducer from './Reducer';
-import Memo from './Memo';
 
 function App() {
   return (
     <div className="App">
-      
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path="/state" element={<State />} />
@@ -20,6 +20,8 @@ function App() {
         <Route path="/ref" element={<Ref />} />
         <Route path="/reducer" element={<Reducer />} />
         <Route path="/memo" element={<Memo />} />
+        <Route path="/callback" element={<Callback />} />
+        <Route path="/custom" element={<Custom />} />
       </Routes>
     </div>
   );

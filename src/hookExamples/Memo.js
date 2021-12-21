@@ -11,11 +11,11 @@ const Memo = () => {
     const [num, setNum] = useState(1);
     const [isGreen, setIsGreen] = useState(true);
 
-    // const result = useMemo(() => {
-    //     return sum(num);
-    // }, [num]);
+    const result = useMemo(() => {
+        return sum(num);
+    }, [num]);
 
-    const result = sum(num);
+    // const result = sum(num);
 
     return (
         <div>

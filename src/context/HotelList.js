@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { MyContext } from '../Context';
+import { MyContext } from '../hookExamples/Context';
 import HotelCard from './HotelCard';
 
 const HotelList = () => {

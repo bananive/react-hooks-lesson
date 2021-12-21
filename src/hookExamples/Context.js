@@ -1,6 +1,6 @@
 import React, { createContext } from 'react';
-import Catalog from './context/Catalog';
-import Home from './context/Home';
+import Catalog from '../context/Catalog';
+import Home from '../context/Home';
 import { Link } from 'react-router-dom';
 
 export const MyContext = createContext();
